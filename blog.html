@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width , initial-scale=1">
+  
+  <link rel="stylesheet" href="assets/css/stylesheet.css" title="" type="" />
+  
+  <title>Blog - Guzarish</title>
+ <!-- favicon --> 
+ 
+   <link rel="shortcut icon" href="logo.jpg" type="image/x-icon" />
+   
+  <!-- FontAwsome icons  CSS and JavaScript -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"  type="text/css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/regular.min.js" type="text/javascript" charset="utf-8"></script>
+ 
+ 
+  <style type="text/css" media="all">
+    .header-below{
+      width:100%;
+      display: grid;
+      place-content: center;
+      height:200px;
+      background: var(--navColor);
+      text-transform: uppercase;
+      color:white;
+      font-size: 22px;
+    }
+    .blogGrid{
+      margin: 20px 10%;
+      width:80%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+      grid-auto-rows: 200px;
+    }
+    .blogItem{
+      background: white;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px -7px rgba(253,159,0,0.396);
+    }
+    @media screen and (max-width:599px){
+      .blogItem{
+        margin: 30px 0px;
+      }
+      .blogGrid{
+        display: block;
+      }
+    }
+    @media screen and (min-width:600px) and (max-width:1023px){
+      .blogItem{
+        
+      }
+      .blogGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: auto;
+        grid-gap: 30px;
+      }
+    }
+    @media screen and (min-width:1024px){
+      .blogItem{
+        
+      }
+      .blogGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: auto;
+        grid-gap: 40px;
+      }
+    }
+    .blogItem img{
+       width:100%;
+       background: rgb(235,187,100);
+       height:200px;
+       margin-bottom: 10px;
+    }
+  .text {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  color: var(--navColor);
+  letter-spacing: 1.2px;
+}
+.heading {
+  color: #1C2029;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+p {
+  color: #33363D;
+  font-size: 14px;
+}
+.date-published {
+  font-size: 9px;
+}
+.PublishedBy {
+  font-size: 9px;
+}
+.circle {
+  font-size: 7px;
+}
+.blogInfo {
+  color: #5C6167;
+  margin-bottom: 10px;
+}
+.blogBody{
+  padding:20px;
+}
+.blogBody a{
+  font-size: 13px;
+}
+  </style>
+</head>
+<body>
+  
+  <div class="header-below">
+      Blog
+  </div>
+  
+  <div class="blogGrid">
+     <div class="blogItem">
+       <img src="assets/images/img1.jpg" alt="" />
+       <br />
+       <div class="blogBody">
+    <div class="text">
+      Design<span> | </span>Marketing
+    </div>
+    <div class="heading">
+      Cause and effect: The case for cause marketing
+    </div>
+    <div class="blogInfo">
+      <span class="PublishedBy">By Sanmeet Singh  </span> <i class="circle fas fa-circle"></i> <span class="date-published" >November 25, 2019</span>
+    </div>
+    <div class="blog-start">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus sapien odio, sed porttitor mauris pretium eu. Suspendisse ornare tincidunt diam, ornare auctor nibh varius ac. Ut vehicula neque nec mauris malesuada porttitor. Curabitur at...</p>
+    </div>
+    <br />
+    <div>
+      <a href="posts.html">Read More <i class="fas fa-arrow-right"></i> </a>
+    </div>
+  </div>
+     </div>
+     <div class="blogItem">
+       <img src="assets/images/img1.jpg" alt="" />
+       <br />
+       <div class="blogBody">
+    <div class="text">
+      Design<span> | </span>Marketing
+    </div>
+    <div class="heading">
+      Cause and effect: The case for cause marketing
+    </div>
+    <div class="blogInfo">
+      <span class="PublishedBy">By Sanmeet Singh  </span> <i class="circle fas fa-circle"></i> <span class="date-published" >November 25, 2019</span>
+    </div>
+    <div class="blog-start">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus sapien odio, sed porttitor mauris pretium eu. Suspendisse ornare tincidunt diam, ornare auctor nibh varius ac. Ut vehicula neque nec mauris malesuada porttitor. Curabitur at...</p>
+    </div>
+    <br />
+    <div>
+      <a href="#">Read More <i class="fas fa-arrow-right"></i> </a>
+    </div>
+  </div>
+     </div>
+     <div class="blogItem">
+       <img src="assets/images/img1.jpg" alt="" />
+       <br />
+       <div class="blogBody">
+    <div class="text">
+      Design<span> | </span>Marketing
+    </div>
+    <div class="heading">
+      Cause and effect: The case for cause marketing
+    </div>
+    <div class="blogInfo">
+      <span class="PublishedBy">By Sanmeet Singh  </span> <i class="circle fas fa-circle"></i> <span class="date-published" >November 25, 2019</span>
+    </div>
+    <div class="blog-start">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus sapien odio, sed porttitor mauris pretium eu. Suspendisse ornare tincidunt diam, ornare auctor nibh varius ac. Ut vehicula neque nec mauris malesuada porttitor. Curabitur at...</p>
+    </div>
+    <br />
+    <div>
+      <a href="posts.html">Read More <i class="fas fa-arrow-right"></i> </a>
+    </div>
+  </div>
+     </div>
+     <div class="blogItem">
+       <img src="assets/images/img1.jpg" alt="" />
+       <br />
+       <div class="blogBody">
+    <div class="text">
+      Design<span> | </span>Marketing
+    </div>
+    <div class="heading">
+      Cause and effect: The case for cause marketing
+    </div>
+    <div class="blogInfo">
+      <span class="PublishedBy">By Sanmeet Singh  </span> <i class="circle fas fa-circle"></i> <span class="date-published" >November 25, 2019</span>
+    </div>
+    <div class="blog-start">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus sapien odio, sed porttitor mauris pretium eu. Suspendisse ornare tincidunt diam, ornare auctor nibh varius ac. Ut vehicula neque nec mauris malesuada porttitor. Curabitur at...</p>
+    </div>
+    <br />
+    <div>
+      <a href="posts.html">Read More <i class="fas fa-arrow-right"></i> </a>
+    </div>
+  </div>
+     </div>
+   </div>
+  
+</body>
+</html>

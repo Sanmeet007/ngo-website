@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Change Theme color if you want to cahnge the top app bar color of browsers   -->
+
+  <meta name="theme-color" content=" #F8F5F0" />
+
+
+  <!-- favicon -->
+
+  <link rel="shortcut icon" href="logo.jpg" type="image/x-icon" />
+
+  <!-- Setting viewport and width to match device width with initial zoom to be 100%  -->
+
+  <meta name="viewport" content="width=device-width , initial-scale=1.0">
+
+  <!--  Loading Typing Animation Script (Plugin) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+  <!-- Title For Page  -->
+
+  <title>Guzarish - Spreading Love all over the world</title>
+
+  <!-- FontAwsome icons  CSS and JavaScript -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" type="text/css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/regular.min.js" type="text/javascript" charset="utf-8"></script>
+
+  <!-- Linking Custom CSS -->
+  <link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css" />
+
+</head>
+<body>
+
+  <!-- Do not  Exceed Content after body class might result in website being not responsive -->
+  <div class="body">
+    <div class="modal" onclick="triggerMenu()"></div>
+    <div class="header">
+      <div class="mobile-nav">
+        <header>
+          <div class="navTrigger">
+            <input type="checkbox" id="navBar" class="navBar" onchange="triggerMenu()" />
+            <label for="navBar"></label>
+          </div>
+          <div onclick="href('./')" class="mobile-logo">
+            <img src="logo.jpg" alt="" class="mylogo">
+            GUZARISH.
+          </div>
+          <div class="mobile-search">
+
+          </div>
+        </header>
+        <nav>
+          <ul>
+
+            <li onclick="href('./')">Home</li>
+            <li onclick="href('about-us.html')">About Us</li>
+            <li onclick="href('contact-us.html')">Contact Us </li>
+            <li onclick="href('blog.html')">Blog </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="desktop-nav">
+        <div onclick="href('./')" class="desktopLogo">
+          <img src="logo.jpg" alt="" class="mylogo">
+          GUZARISH.
+        </div>
+        <nav>
+          <ul class="navigationList">
+            <li><a href="./">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact-us.html">Contact Us </a></li>
+
+          </ul>
+        </nav>
+        <div class="desktopActions">
+          <button class="splButton" onclick="href('Donation.html')"><i class="fas fa-donate"></i> Donate Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="Pagebody">
+      <div class="alert">
+        <div class="timeout">
+
+        </div>
+      </div>
+      <!-- HERO section -->
+      <section class="hero">
+        <h3><span style="color:white">Giving</span> <span class="typing"></span></h3>
+        <p>
+          You will never know when a helping hand will change another person's entire life.
+        </p>
+        <br>
+        <div class="wavy-border">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="var(--backgroundLine)" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </div>
+        <div class="wavy-border little">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="var(--background)" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </div>
+      </section>
+      <!---Categories Section -->
+      <section class="categories">
+        <br>
+        <h2>Our Main Focuses</h2>
+        <div class="DisplayCategories">
+          <div class="card" style=" background: var(--red);">
+            <div class="displayIcon">
+              <img class="icon" src="assets/images/medicine.svg" alt="" />
+              <div class="info">
+
+                Medical
+
+              </div>
+              <p>
+                Your devotion and care brings healing, comfort and hope.
+              </p>
+            </div>
+          </div>
+          <div class="card" style=" background: #23C397">
+            <div class="displayIcon">
+              <img class="icon" src="assets/images/book.svg" alt="" />
+              <div class="info">
+                Education
+              </div>
+              <p>
+                Our greatest natural resource is the mind of our young children.
+              </p>
+            </div>
+          </div>
+          <div class="card" style=" background: var(--blue);">
+            <div class="displayIcon">
+              <img class="icon" src="assets/images/animals.svg" alt="" />
+              <div class="info">
+                Animals
+              </div>
+              <p>
+                He who feeds a hungry animal, feeds his own soul.
+              </p>
+            </div>
+          </div>
+          <div class="card" style=" background: var(--orange);">
+            <div class="displayIcon">
+              <img class="icon" src="assets/images/heart.svg" alt="" />
+              <div class="info">
+                Shelter
+              </div>
+              <p>
+                It is in the shelter of each other that people live.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Other icons -->
+      <section class="content">
+        <div class="left position">
+          <h6>About Our Foundetion</h6>
+          <h2>We Are In A Mission To Help Helpless.</h2>
+          <br>
+          <p>
+            Happiness begins from the moment you do something for others. Those who consistently help others, are happy, and do not come across any obstacles in their lives. The purpose of life is to serve others. However, when doing so, you should not expect something in return; your intention should be to lessen other people’s misery.
+
+          </p>
+          <br>
+          <p>
+            “Service to others should be sincere and done from the heart; only then it is fruitful.” Do any trees eat their own fruit? No. This teaches us that human beings should not only use their mind, body and speech for themselves, but also to serve others. When you do this, nature in turn will reward you.
+          </p>
+          <br> <br>
+          <p>
+
+            Your constant inner intent should be towards helping others. If you are unable to do so for any reason, you can also make sure that you do not hurt anyone. This is an indirect way to help those around you.
+          </p>
+          <br><br>
+          <p>
+            <button class="btn" onclick="href('about-us.html')"> About Us</button>
+          </p>
+          <br>
+
+
+          <br>
+        </div>
+        <div class="right position">
+          <img class="stand" loading="lazy" src="assets/images/1.jpg" />
+          <img class="sleep" loading="lazy" src="assets/images/2.jpg" />
+
+        </div>
+      </section>
+      <br />
+      <!-- Volunteers Section -->
+      <section class="volunteers">
+        <div class="">
+          <h6>what are we doing</h6>
+          <h2>Our Expert Volunteers Are Always There For You</h2>
+          <br>
+          <br>
+        </div>
+        <div class="grid">
+          <div class="grid-item">
+            <div class="grid-item-img">
+            </div>
+            <div class="information">
+              Jaspreet Singh
+              <br>
+              <span>Punjab</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="grid-item-img">
+            </div>
+            <div class="information">
+              Muroy Dixit
+              <br>
+              <span>Banglore</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="grid-item-img">
+            </div>
+            <div class="information">
+              Anushka Sen
+              <br>
+              <span>Mumbai</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="grid-item-img">
+            </div>
+            <div class="information">
+              Rishi Malhotra
+              <br>
+              <span> New Delhi</span>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <br>
+      <!-- Humanity section -->
+      <section class="humanity">
+        let's change the world with humanity
+        <br><br>
+
+        <button onclick="href('contact-us.html')">Contact - us</button>
+
+      </section>
+      <br>
+      <!-- Donation -->
+      <section class="donationSeaters" id="donationSeaters">
+        <h6>What Are we doing</h6>
+        <h2>Find Our Donation Seators</h2>
+        <div class="placeThem">
+          <div class="item">
+            <img src="assets/images/charity-food.svg" alt="" />
+            <div>
+              <a href="categories.html">
+                Charity Food
+              </a>
+
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/home.svg" alt="" />
+            <div>
+              <a href="categories.html">
+                Homeless People
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/books.svg" alt="" />
+            <div>
+              <a href="categories.html">
+                Education
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/shelter.svg" alt="" />
+            <div>
+              <a href="categories.html">
+                Child Protection
+              </a>
+            </div>
+          </div>
+
+
+          <div class="item">
+            <img src="assets/images/crowdfunding.svg" alt="" />
+            <div>
+              <a href="categories.html">
+                Crowdfunding
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/donate.svg" alt="" />
+            <div>
+              <a href="categories.html">
+                Donate Poor
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/clothing.svg" alt="" />
+            <div>
+              <a href="categories.html">
+                Clothing
+              </a>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/save-future.svg" alt="" />
+            <div>
+              <a href="categories.html">Save Future</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <br>
+      <!-- Blog Section-->
+      <section class="blog" id="blog">
+        <h6>Our Recent Blog</h6>
+        <h2>Latest News From Our Recent Blog</h2>
+        <div class="blogGrid">
+          <div class="blog-card">
+            <div class="blogLabel">
+              <div class="blogImg">
+                <img src="assets/images/home-blog1.png" alt="" />
+              </div>
+
+              <div class="blogDate">
+                <span>09th</span>
+                <br>
+                <span>May</span>
+              </div>
+            </div>
+            <div style="padding:10px 20px">
+              <div class="blogHeading">
+                Kanpur
+              </div>
+              <div class="blogDesc">
+                <a href="">Humane Society’s India COVID Response Fund is active again</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="blog-card">
+            <div class="blogLabel">
+              <div class="blogImg">
+                <img src="assets/images/home-blog2.png" alt="" />
+              </div>
+
+              <div class="blogDate">
+                <span>05th</span>
+                <br>
+                <span>May</span>
+              </div>
+            </div>
+            <div style="padding:10px 20px">
+              <div class="blogHeading">
+                Kanpur
+              </div>
+              <div class="blogDesc">
+                <a href="#">‘Our English medium school caters to lowest of low’</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="blog-card">
+            <div class="blogLabel">
+              <div class="blogImg">
+                <img src="assets/images/home-blog3.png" alt="" />
+              </div>
+
+              <div class="blogDate">
+                <span>02nd</span>
+                <br>
+                <span>May</span>
+              </div>
+            </div>
+            <div style="padding:10px 20px">
+              <div class="blogHeading">
+                Bihar
+              </div>
+              <div class="blogDesc">
+                <a href="#">Rising child malnutrition is a serious cause of concern</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- Animated Counter-->
+      <section class="counts">
+        <div id="cG" class="countGrid">
+          <div>
+            <div class="counter" data-target="60000">
+              0
+            </div>
+            <span>Donation</span>
+          </div>
+          <div>
+            <div class="counter" data-target="60000">
+              0
+            </div>
+            <span>Fund Raised</span>
+          </div>
+          <div>
+            <div class="counter" data-target="520">
+              0
+            </div>
+            <span>Donation</span>
+          </div>
+          <div>
+            <div class="counter" data-target="256">
+              0
+            </div>
+            <span>Donation</span>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="footer">
+      <br>
+      <br>
+
+      <div class="footerGrid">
+        <div class="fooitem importantLinks">
+          <h3>Important Links</h3>
+          <br>
+          <p>
+            <a href="Donation.html"><i> <u>Donate Now</u></i></a>
+            <a href="Contact-us.html"> <i> <u> Contact Us</u></i></a>
+            <a href="About-us.html"> <i> <u>About Us</u></i> </a>
+            <a href="#blog"><i> <u> Latest Blog</u></i></a>
+            <a href="#donationSeaters"> <i><u> All Categories </u></i></a>
+          </p>
+        </div>
+        <div class="fooitem contactInfo">
+          <h3>Contact Info</h3>
+          <br>
+          <p>
+            <span>Address :</span><a href="https://www.google.com/maps/place/Punjab/@31.018031,75.401169,7z/data=!4m2!3m1!1s0x391964aa569e7355:0x8fbd263103a38861">
+              <i class="icon fas fa-location-arrow"></i> Punjab </a>
+
+            <span> Phone :</span>  <a href="tel:+919988XXXXXX">
+              <i class="icon fas fa-phone"></i>
+              +91-9988XXXXX</a>
+            <span> Email :</span> <a href="mailto: guzarish21@gmail.com"><i class="icon fas fa-envelope"></i><span style="text-transform:none;">guzarish21@gmail.com</span></a>
+          </p>
+        </div>
+        <div class="fooitem newsletter">
+
+          <h3>Newsletters</h3>
+          <br>
+          <p>
+            “No one is useless in this world who lightens the burdens of another.”
+          </p>
+          <br>
+          <form action="" method="post">
+            <input type="email" name="" placeholder="example@gmail.com" />
+            <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+          </form>
+          <br>
+
+        </div>
+      </div>
+
+      <div class="SizedBox"></div>
+      <div class="credits">
+        Copyright ©2021 All rights reserved | This template is made by<i style="color:red" class="fas fa-heart"></i> Bug Busters. Attempt to any changes may invite legal actions.
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+  <!-- Scroll Top -->
+
+  <div class="scrollTop" onclick="scrollMeTop()">
+    <i class="fas fa-angle-up"></i>
+  </div>
+
+
+  <!-- Script's order  should not be changed  -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+  <!-- Do Not edit until want to do some changes in DOM before loading other  scripts -->
+  <script type="text/javascript" charset="utf-8">
+
+    // Some Extra JavaScript
+
+    $(document).ready(function () {
+      $('.hero').css('background-image', 'linear-gradient(rgba(129,82,2 , 0.5) , rgba(129,82,2 ,0.2)) , url("assets/images/main.jpg")')
+    });
+
+    isOpen = false;
+    navBar = document.querySelector('.navBar')
+
+    function triggerMenu() {
+      nav = document.querySelector('.mobile-nav > nav')
+      Pagebody = document.querySelector('.Pagebody')
+      MobileHeader = document.querySelector('.mobile-nav > header')
+
+      MobileFooter = document.querySelector('.footer');
+     
+      Modal = document.querySelector('.modal');
+     
+      if (isOpen) {
+        Pagebody.style.transform = "translate(0px ,0px)";
+        MobileFooter.style.transform = "translate(0px ,0px)";
+        MobileHeader.style.transform = "translate(0px ,0px)";
+        
+        Modal.style.visibility = "hidden";
+        Modal.style.opacity = "0";
+        
+        nav.style.transform = "translate(-250px ,0px)"; 
+        
+        
+        isOpen = false;
+        $('#navBar')[0].checked = false;
+      } else {
+        Pagebody.style.transform = "translate(100px ,0px)";
+        MobileHeader.style.transform = "translate(100px ,0px)";
+        
+        MobileFooter.style.transform = "translate(250px ,0px)";
+        
+        Modal.style.visibility = "visible";
+        Modal.style.opacity = "1";
+        
+        nav.style.transform = "translate(250px ,0px)"; 
+        
+        
+        isOpen = true;
+        $('#navBar')[0].checked = true;
+      }
+    }
+
+
+    $(document).on('scroll', function() {
+      $('.scrollTop').css('transform', 'scale(1)');
+    })
+
+    var isScrolling;
+    // Listen for scroll events
+    window.addEventListener('scroll', function (event) {
+      window.clearTimeout(isScrolling);
+      
+      if(window.scrollY  <  700){
+     isScrolling =  setTimeout(function() {
+        $('.scrollTop').css('transform', 'scale(0)');
+      }, 200);
+      
+      }else{
+     isScrolling =  setTimeout(function() {
+        $('.scrollTop').css('transform', 'scale(0)');
+      }, 1000);
+      }
+    }, false);
+
+
+    const lis = document.querySelectorAll('.open');
+
+    var height, ulH, ul;
+    opened = false;
+
+    lis.forEach(list => {
+
+
+      list.onclick = (e) => {
+
+        ul = e.target.children[0];
+        ulH = ul.scrollHeight + 'px';
+
+        height = ul.style.height;
+
+        $('.mobile-nav nav ul li ul').css('height', '0px');
+
+        if (height != ulH) {
+          ul.style.height = ul.scrollHeight + "px";
+
+          height = ul.style.height;
+
+        } else {
+
+          ul.style.height = "0px";
+          height = ul.style.height;
+        }
+
+
+      }
+    });
+    $('.Pagebody').on('click', function () {
+      if ($('#navBar')[0].checked == true) {
+        triggerMenu()
+      }
+    })
+
+    $('.detect').on('click', function() {
+
+      $('.mobile-nav nav ul li ul').css('height', '0px');
+    });
+
+    //  console.log($('.mobile-nav a'))
+    $('.mobile-nav a').on('click', function() {
+      triggerMenu()
+    });
+
+    function href(link) {
+      window.location.href = link;
+    }
+
+    function scrollMeTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+  <!-- Add Your custom JavaScript in the file below mentioned  -->
+
+  <script src="assets/js/custom.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+    function href(link) {
+      window.location.href = link;
+    }
+  </script>
+</body>
+</html>

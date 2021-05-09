@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Donate Poor - Guzarish</title>
+    
+    
+     <!-- FontAwsome icons  CSS and JavaScript -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"  type="text/css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/regular.min.js" type="text/javascript" charset="utf-8"></script>
+
+ <!-- favicon --> 
+ 
+   <link rel="shortcut icon" href="logo.jpg" type="image/x-icon" />
+   
+  <!-- Linking Custom CSS -->
+  <link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css" />
+  
+  <link rel="stylesheet" href="assets/css/checkout.css" type="text/css" />
+ 
+ 
+  </head>
+  <body>
+    <!-- Header Here-->
+    <br>
+  <div class="myBody">
+    <div class="processing">
+      <div class="iv">
+     
+     <div class="">
+      <i class="colors fas fa-circle-notch fa-spin"></i>
+      <br />
+     <span> Redirecting to secure gateway
+      </span>
+     </div>
+      </div>
+    </div>
+    
+  <form id="paymentForm" method="post">
+    <div class="stepper">
+      <div class="number-line">
+      </div>
+      <div class="stepper-body">
+        <div class="steps">
+        <div class="step">
+        <div class="stepper-number">
+          <div class="number">
+            1
+          </div>
+        </div>
+        <div class="step-body">
+           <div class="step-label">
+             Contact Information
+         </div>
+           <div class="step-fields">
+             <div class="claims">
+               We'll use these details to maintain a bond with our charity home.
+             </div>
+             
+               <div class="form-flex">
+               <div class="fifty">
+                  <input type="email" name="" id="" placeholder="First Name" />
+               </div>
+               <div class="fifty"> <input type="email" name="" id="" placeholder="Last Name" />
+                 
+               </div>
+              
+             </div>
+             <input type="email" name="" id="" placeholder="Email Address" />
+             
+             <input type="tel" name="" id="" placeholder="Phone Number" />
+         </div>
+        </div>
+        </div>
+        <div class="step">
+        <div class="stepper-number">
+          <div class="number">
+            2
+          </div>
+        </div>
+        <div class="step-body">
+           <div class="step-label">
+            Type of Donation
+         </div>
+           <div class="step-fields">
+             <div class="claims">
+              Be humble to tell us your true feelings.
+             </div>
+             <div class="radio">
+               <label onclick="radioSelect(0)" for="shipOpts1" class="radioFlex">
+                 
+                 <div class="radioInput">
+                    <div class="radioCircle">
+                      <div class="fillRadio">
+                      </div>
+                    </div>  
+                 </div>
+                 <div class="shipLabel">
+                Love Offering
+                </div>
+              
+                </label>
+               <label onclick="radioSelect(1)" for="shipOpts2" class="radioFlex">
+                 
+                 <div class="radioInput">
+                    <div class="radioCircle">
+                     
+                    </div>  
+                 </div>
+                 <div class="shipLabel">
+                Building Expansion
+                </div>
+             
+                </label>
+               <label onclick="radioSelect(2)" for="shipOpts3" class="radioFlex">
+                 
+                 <div class="radioInput">
+                    <div class="radioCircle">
+
+                    </div>  
+                 </div>
+                 <div class="shipLabel">
+               One time Donation
+                </div>
+              
+                </label>
+           
+              <input type="radio" name="shipOpts" id="shipOpts1" />
+              <input type="radio" name="shipOpts" id="shipOpts2" />
+              <input type="radio" name="shipOpts" id="shipOpts3" />
+             </div>
+         </div>
+        </div>
+        </div>
+        <div class="step">
+        <div class="stepper-number">
+          <div class="number">
+            3
+          </div>
+        </div>
+        <div class="step-body">
+           <div class="step-label">
+             Comments
+         </div>
+           <div class="step-fields">
+             <div class="claims">
+               Let us know your true motivation for donating to the humanity
+             </div>
+             
+              <textarea name="" rows="8" placeholder="Comments"></textarea>
+         </div>
+        </div>
+        </div>
+        <div class="step">
+        <div class="stepper-number">
+          <div class="number">
+            4
+          </div>
+        </div>
+        <div class="step-body">
+           <div class="step-label">
+             Donation Amount
+         </div>
+           <div class="step-fields">
+             <div class="claims">
+             Feel free to donate ! Even a dollar will lead to bright future of humanity.
+             </div>
+             
+             <input type="text" name="" id="" placeholder="Donation Amount " />
+         </div>
+        </div>
+        </div>
+         <div class="step">
+        <div class="stepper-number">
+          <div class="number">
+            5
+          </div>
+        </div>
+        <div class="step-body">
+           <div class="step-label">
+             Payment Method 
+         </div>
+           <div class="step-fields">
+             <div class="claims">
+             Select a Payment Method
+             </div>
+             <div class="paymentSelect">
+               <div onclick="methodType(1)" class="method">
+                <i class="fas fa-credit-card"></i>  Credit / Debit Card
+               </div>
+               <div style="border-color:#C6C6C6;  color:#C6C6C6;" class="method" onclick="methodType(2)">
+                <i class="fa fa-money-check"></i> Check Payment
+               </div>
+             </div>
+             <br>
+             <br>
+             <div class="DisplayMethod">
+            
+             <input type="text" name="" id="" placeholder="Card Number" />
+               <div class="form-flex">
+               <div class="fifty">
+                  <input type="email" name="" id="" placeholder="Expiry Date" />
+               </div>
+               <div class="fifty"> <input type="email" name="" id="" placeholder="CVV / CVC" />
+                 
+               </div>
+              
+             </div>
+             <div class="paymentCards">
+               <div class="paymentImg">
+                 <img src="assets/payment/1.svg" alt="" />
+               </div>
+               <div class="paymentImg">
+                 <img src="assets/payment/2.svg" alt="" />
+               </div>
+               <div class="paymentImg">
+                 <img src="assets/payment/3.svg" alt="" />
+               </div>
+               <div class="paymentImg">
+                 <img src="assets/payment/4.svg" alt="" />
+               </div>
+             </div>
+            
+             </div>
+         </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    
+  <!-- For Final Step-->
+  
+    <div class="stepper">
+      <div class="stepper-body">
+        <div class="steps">
+          <div class="step final">
+             <div class="stepper-number">
+          <div class="number">
+            6
+          </div>
+        </div>
+        <div class="step-body">
+          <div class="step-label">
+             Confirm
+         </div>
+         
+         <div class="step-fields terms">
+           <div class="tc">
+           <label for="terms">
+            <div class="box">
+            </div>
+           </label>
+            <div class="condition">
+              I agree to Website's terms  of use , Conditions and Terms of Use .        </div>
+           </div>
+           <input type="checkbox" name="" id="terms" />
+            <button class="btn" id="btn" type="submit">Donate Now</button>
+         </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form> 
+    <br/>
+    
+    <!-- Footer here-->
+    
+    <script type="text/javascript" charset="utf-8">
+      const radioInput =  document.querySelectorAll('.radioCircle');
+   
+      
+      function radioSelect(number){
+        radioInput.forEach( input =>{
+          input.innerHTML = "";
+        })
+        radioInput[number].innerHTML = `
+           <div class="fillRadio"></div>
+           `;
+           
+       }
+      
+     const terms = document.getElementById('terms');
+     const btn = document.getElementById('btn');
+     const form = document.getElementById('paymentForm');
+     const box = document.querySelector('.box');
+     const DisplayMethod = document.querySelector('.DisplayMethod');
+     const method = document.querySelectorAll('.method');
+     const processing = document.querySelector('.processing');
+     var bool = false;
+     
+     terms.onchange =  ()=>{
+       if(terms.checked == false){
+       btn.style.background = "#C6C6C6";
+       btn.style.opacity = "0.5";
+       box.innerHTML = "";
+       box.style.background = "#C6C6C6";
+       }else{
+       btn.style.background = "#43494E";
+       btn.style.opacity = "1";
+       box.innerHTML = '  <i class="checkme fas fa-check"></i>';
+       box.style.background = "#43494E";
+       }
+     }
+     
+     form.addEventListener('submit' , (e)=>{
+       if(terms.checked == false){
+       e.preventDefault();
+       }else{
+         e.preventDefault();
+         processing.style.opacity ='1';
+         processing.style.visibility ='visible';
+         processing.style.transform ='scale(1)';
+        // Pass All Data using php !
+        
+         window.location.href = "thank-you.html";
+        
+       }
+     })
+      
+      
+    const cardPayment = `
+       <input type="text" name="" id="" placeholder="Card Number" />
+               <div class="form-flex">
+               <div class="fifty">
+                  <input type="email" name="" id="" placeholder="Expiry Date" />
+               </div>
+               <div class="fifty"> <input type="email" name="" id="" placeholder="CVV / CVC" />
+                 
+               </div>
+              
+             </div>
+             <div class="paymentCards">
+               <div class="paymentImg">
+                 <img src="assets/payment/1.svg" alt="" />
+               </div>
+               <div class="paymentImg">
+                 <img src="assets/payment/2.svg" alt="" />
+               </div>
+               <div class="paymentImg">
+                 <img src="assets/payment/3.svg" alt="" />
+               </div>
+               <div class="paymentImg">
+                 <img src="assets/payment/4.svg" alt="" />
+               </div>
+             </div>`;
+      
+      
+     const checkPayment = `
+       <div class="checkPayment">
+       Please Send a check to Our Charity House.<br>
+       <br>
+       Note: For Donations More than $100 only
+              </div>
+     `;
+      
+     function methodType(item){
+       if(item == 1){
+         method[0].style.color = "#43494E";
+         method[0].style.borderColor = "#43494E";
+         method[1].style.color = "#C6C6C6";
+         method[1].style.borderColor = "#C6C6C6";
+         DisplayMethod.innerHTML = cardPayment;
+       }else{
+         method[1].style.color = "#43494E";
+         method[1].style.borderColor = "#43494E";
+         method[0].style.color = "#C6C6C6";
+         method[0].style.borderColor = "#C6C6C6";
+         DisplayMethod.innerHTML = checkPayment;
+       }
+     }
+    
+    
+   
+    </script>
+  </div>
+  </body>
+</html>
