@@ -1,0 +1,360 @@
+
+ body{
+    background: white;
+   
+}
+.mybody{
+  display: grid;
+  place-content:center;
+}
+form{
+ width: 100%;
+
+}
+
+.stepper{
+  margin: 20px 10%;
+  display: flex;
+}
+.stepper-body{
+  display: block;
+  width:90%;
+}
+.stepper-number{
+  transform: translate(-50%  , 20px);
+  background:white;
+  width:40px;
+  height:40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.number-line{
+  width:1.7px;
+  transform: translate(0px , 20px);
+  background: #C3C4C7;
+  padding-bottom:50px;
+  box-shadow: 1px 1px 2px 0 rgba(0,0,0,.2);
+}
+.number{
+  background:#A7AAAD;
+  color: white;
+  width:30px;
+  height: 30px;
+  font-size: 13px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transform: scale(0.8);
+}
+.step-body{
+   transform: translate(20px , -12px);
+}
+.step-label{
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #43494E;
+  font-size: 15px;
+}
+.step-fields{
+   padding: 5px 3px;
+   margin-bottom: 0px;
+}
+.claims{
+  font-size: 12px;
+  margin-bottom: 40px;
+  color: #43494E;
+}
+.step-fields input  , select , textarea{
+  color:  #43494E;
+  width:90%;
+  background:white;
+  padding:8px 10px;
+  border-radius: 2px;
+  border:1.5px solid #8D96A0;
+  margin-bottom:25px;
+}
+.form-flex{
+  display:flex;
+  width:92%;
+}
+
+.form-flex .fifty{
+  width:49%;
+  margin-right:2%;
+}
+.form-flex input{
+  width: 100%;
+  display: inline-block;
+}
+.form-flex .fifty select{
+ width:100%;
+ display: inline-block;
+ color:  #43494E;
+}
+
+.select{
+  position: absolute;
+  width:43.5%;
+}
+
+.select:before{
+  font-family: 'Font Awesome\ 5 Free';
+  content: "\f107"; 
+  font-weight: 900;
+  width:15%;
+  transform: translate(-10%, 50%);
+  height: inherit;
+  background:white;
+  position: absolute;
+  right:0;
+  pointer-events: none;
+  color: #767676;
+}
+.radio input{
+  width: 20px;
+  display:none;
+}
+.radio label{
+  padding:none;
+  color: #43494E;
+  background: transparent;
+  position: static;
+  transform: none;
+  display: flex;
+  width: 100%;
+  height: inherit;
+}
+
+.radio label{
+   padding-top:7px;
+   padding-bottom:10px;
+   border-bottom: 1.5px solid rgba(167,170,173,0.199);
+   border-radius: 0px;
+}
+.radio label:after{
+  content:"none";
+  display: none;
+}
+.radio label:before{
+  content:"none";
+  display: none;
+}
+
+.radioInput , .shipCost , .shipLabel{
+  font-size:14px;
+}
+
+.radioInput{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  pointer-events: none;
+}
+
+.shipCost{
+  width: 30%;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+.shipLabel{
+  width: 58%;
+  margin-left:2%;
+  font-size:12px;
+ 
+}
+.radioCircle{
+  width:20px;
+  background: #A7AAAD;
+  height: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+.fillRadio{
+  background: white;
+  border-radius: 10px;
+  height: 10px;
+  width:10px;
+  pointer-events: none;
+}
+.paymentSelect{
+ display:flex;
+}
+
+.method{
+  padding: 10px 10px;
+  font-weight: bold;
+  width:48%;
+  background:white;
+  margin-right:2%;
+  cursor: pointer;
+  border-bottom: 3px solid  #43494E;
+  color: #43494E;
+}
+
+ 
+
+.paymentImg img{
+  height:60px;
+  margin-right: 10px;
+}
+.paymentImg{
+  display: inline-block;
+}
+.final{
+  transform: translate(0px , -20px);
+}
+.final .btn{
+  background: #C6C6C6;
+  opacity: 0.5;
+  color: white;
+  border: none;
+  width: 300px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.2);
+}
+
+.box{
+  background: #C6C6C6;
+  height: 20px;
+  width:20px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.terms label{
+   border:none;
+   background:none;
+   height: inherit;
+   font-size: 13px;
+   width:20px;
+   height: 20px;
+   position: static;
+   transform: none;
+}
+.terms label:after{
+  content:"none";
+  display: none;
+}
+.terms label:before{
+  content:"none";
+  display: none;
+}
+.box .checkme{
+  font-size:15px;
+  color:white;
+}
+.btn:active{
+  opacity: 0.8;
+}
+#terms{
+  display: none;
+}
+.condition{
+  font-size: 14px;
+  padding: 0px 10px;
+  transform: translate(0px , -3px);
+}
+.tc{
+  display: flex;
+  padding-bottom: 30px;
+}
+.checkPayment{
+  background: #eee;
+  padding: 30px 20px;
+  font-size: 14px;
+}
+.processing{
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(1px);
+  width:100%;
+  height:100vh;
+  z-index: 200;
+  position:fixed;
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  transform:scale(0.7);
+  top:0;
+  transition:0.5s ease;
+  font-size: 40px;
+}
+.iv{
+  height: 100vh;
+  width:100%;
+   display: grid;
+   place-content: center;
+   transform: translate(0px , -5%);
+  
+  /* animation: colors 10s linear infinite ;
+  */
+}
+.iv div{
+  display: block;
+  text-align: center;
+}
+.iv div span{
+  font-size: 18px;
+}
+.step-fields textarea {
+ resize: none;
+}
+@keyframes colors{
+  0%{
+   color:red;
+  }
+  10%{
+   color:blue;
+  }
+  20%{
+   color:green;
+  }
+  30%{
+   color:yellow;
+  }
+  40%{
+   color: var(--navColor);
+  }
+  50%{
+   color: dodgerblue;
+  }
+  60%{
+   color: black;
+  }
+  70%{
+   color: grey;
+  }
+  80%{
+   color: yellow;
+  }
+  90%{
+   color: #f70653;
+  }
+  100%{
+   color:#eca6a6;
+  }
+}
+@media screen and (min-width:1024px){
+  .processing {
+    font-size:60px;
+  }
+  .iv div span{
+    font-size: 25px;
+  }
+button{
+  cursor:pointer;
+}
+}
+ 
