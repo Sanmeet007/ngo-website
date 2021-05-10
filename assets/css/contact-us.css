@@ -22,7 +22,7 @@ body {
   background-image: linear-gradient(rgba(129,82,2 , 0.6) , rgba(129,82,2 , 0.8)) , url('../images/img7.jpg');
   width: 100%;
   height: 100vh;
-
+  background-size: cover;
   object-fit: cover;
 }
 .body_background {
@@ -43,7 +43,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 40px;
-  max-width: 500px;
+  max-width: 400px;
 }
 h2{
   color: rgb(219,153,37);
